@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class DemoContorller
 {
 
+
+
+
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String text(){
